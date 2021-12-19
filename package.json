@@ -1,0 +1,27 @@
+{
+  "name": "api-restful-product",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.14.0",
+    "mongoose": "^6.0.14",
+    "path": "^0.12.7",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
